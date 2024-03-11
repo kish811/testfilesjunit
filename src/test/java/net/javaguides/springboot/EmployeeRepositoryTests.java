@@ -67,7 +67,7 @@ public class EmployeeRepositoryTests {
 
 		Employee employeeUpdated = employeeRepository.save(employee);
 
-		Assertions.assertThat(employeeUpdated.getEmail()).isEqualTo("kishore@gmail.com");
+		Assertions.assertThat(employeeUpdated.getEmail()).isEqualTo("ram@gmail.com");
 
 	}
 
